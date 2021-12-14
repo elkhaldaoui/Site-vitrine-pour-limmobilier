@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <style>
+      div {
+        background-image: url('background.jpg');
+      }
+      </style>
+      </head>
+    <link rel="stylesheet" href="normale.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="site international de vente en ligne ">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vente des immobiliers en ligne</title>
+</head>
+<body>
+    <section>
+      <form>
+            <div>
+              <img class="img" src="logo.png" alt="logo d'entreprise">
+            </div>
+            
+            <div>
+              <label for="rayon de recherche">Rayon de recherche :</label>
+              <input type="text" name="Recherche">
+            </div>
+
+            <div>
+              <label for="Fourchette de prix">Fourchette de prix :</label>
+              <span>Min </span><input type="number" value="" min="" max=""/>
+              <span>Max </span><input type="number" value="" min="" max=""/>
+            </div>
+
+            <div>
+                <label for="Chambres">Chambres :</label>
+                <span>Min </span><input type="number" value="1" min="1" max="4"/>
+            </div>
+
+            <div>
+                <label for="Type de propriété">Type de propriété :</label>
+                <input type="checkbox" name="La pleine propriété"><span>La pleine propriété</span>
+                <input type="checkbox" name="La copropriété"><span>La copropriété</span>
+                <input type="checkbox" name="Le démembrement"><span>Le démembrement</span>
+                <input type="checkbox" name="L'indivision"><span>L'indivision</span>
+            </div> 
+
+            <div>
+                <input type="submit" value="ALLER!">
+            </div>
+         </form>
+    </section>
+</body>
+</html>
